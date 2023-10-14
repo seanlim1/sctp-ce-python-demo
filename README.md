@@ -27,8 +27,17 @@ pip install flask
 
 # Example Usage
 ``` sh
+# Run Example Python
 python basic.py
+
+# Run Simple Webapp
 python web-basic.py
+
+# Run Flask Webapp
 python web-flask.py
+
+# Run Flask Webapp (with Port from system environment variables)
+export PORT=9123
 python web-flask-envvar.py
+unset PORT                          # removes env variable
 ```
