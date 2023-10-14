@@ -1,26 +1,27 @@
 # Setup
 System Package Managers: apt-get, snap, yum, apt, homebrew, chocolately
+Python Package Managers: pip, conda
 
 ## Ubuntu (WSL)
 ``` sh
-# Install Python
-sudo apt list                       # show all your current install packages
-sudo apt update                     # get the list of available packages for install from the repository
-sudo apt upgrade                    # download and upgrade the package
-sudo apt search package-name        # find the package
-sudo apt install python3.11         # install specific version of python
-# Install Flask
-pip list
+## Install Python
+# sudo apt list                       # show all installed packages
+# sudo apt update                     # updates the list of available packages for install (often needed on first boot, or after sometime)
+# sudo apt upgrade                    # download and upgrade the package
+sudo apt search python                # search for available package for installation
+sudo apt install python311            # install the specific version of python
+## Install Flask
+# pip list
 pip install flask
 ```
 
 ## MacOS
 ``` sh
-# Install Python
-brew list
+## Install Python
+# brew list                         # show all installed packages
 brew install python@3.11
-# Install Flask
-pip list
+## Install Flask
+# pip list
 pip install flask
 ```
 
