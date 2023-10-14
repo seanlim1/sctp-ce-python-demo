@@ -62,5 +62,5 @@ def sum_numbers(a, b):
     return a + b
 n1 = 73
 n2 = 32
-print(f"The result of sum_numbers({n1}, {n2})")
-print(sum_numbers(n1,n2))
+result = sum_numbers(n1,n2)
+print(f"The result of sum_numbers({n1}, {n2}) is {result}")
