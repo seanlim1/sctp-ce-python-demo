@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# Simple web application with default modules
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class ExampleHandler(BaseHTTPRequestHandler):

@@ -1,7 +1,10 @@
-### Print
-print("Hello World")
+# Sample Python
 
-### Data Types
+# Simple Print
+print("Hello World")
+# print("this commented out and not printed")
+
+# Data Types
 n1 = 123            # int
 n2 = 100.23         # decimal
 name = 'John'      # string
@@ -44,3 +47,20 @@ num = 0
 while num < 100:
     num = num + 20
     print("Value of num: " + str(num))
+
+## For Loop
+fruits = ['apple', 'orange', 'kiwi']
+for fruit in fruits:
+    print(f"I like to eat {fruit}")
+
+## For Loop
+for index in range(len(fruits)):
+    print(f"I grow {fruits[index]}")
+
+## Functions
+def sum_numbers(a, b):
+    return a + b
+n1 = 73
+n2 = 32
+print(f"The result of sum_numbers({n1}, {n2})")
+print(sum_numbers(n1,n2))

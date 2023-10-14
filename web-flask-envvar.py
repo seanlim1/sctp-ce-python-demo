@@ -1,3 +1,5 @@
+# Simple web application using Flask framework
+#   - Use of Env Variables to configure
 from flask import Flask
 import os # (1) library for operating system calls
 

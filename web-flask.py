@@ -1,3 +1,4 @@
+# Simple web application using Flask framework
 from flask import Flask
 
 app = Flask(__name__)
