@@ -46,6 +46,6 @@ unset PORT                          # removes env variable
 ``` sh
 pwd             # shows present working directory
 cd ~            # change to user directory `/home/{username}`
-cd ..           # change to parent directory
+cd ..           # change to parent directory (i.e. 1 level up)
 code .          # opens Visual Studio Code against the present directory
 ```
