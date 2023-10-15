@@ -41,3 +41,11 @@ export PORT=9123
 python web-flask-envvar.py
 unset PORT                          # removes env variable
 ```
+
+# Additional Useful Commands
+``` sh
+pwd             # shows present working directory
+cd ~            # change to user directory `/home/{username}`
+cd ..           # change to parent directory
+code .          # opens Visual Studio Code against the present directory
+```
